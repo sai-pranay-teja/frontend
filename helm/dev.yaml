@@ -8,3 +8,12 @@ service:
 
 
 env: dev
+
+resources:
+   limits:
+     cpu: 500m
+     memory: 300Mi
+   requests:
+     cpu: 400m
+     memory: 223Mi
+
